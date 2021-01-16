@@ -1,0 +1,17 @@
+@import "./utils/variables";
+@import "./utils/modern-normalize";
+
+@import "./general/container";
+@import "./general/common";
+
+@import "./components/header";
+@import "./components/hero";
+@import "./components/list";
+@import "./components/work";
+@import "./components/team";
+@import "./components/partner";
+
+@import "./components/portfolio";
+@import "./components/modal";
+
+@import "./components/footer";

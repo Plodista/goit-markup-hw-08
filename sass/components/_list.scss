@@ -1,0 +1,204 @@
+// LIST
+
+
+
+.list {
+  padding-top: 60px;
+  padding-bottom: 94px;
+}
+  
+// @media screen and (min-width: 1200px) {
+//   width: 270px;
+//   text-align: left;
+// .list li {
+//   margin-right: 30px;
+// }
+// }
+
+.list li:last-child {
+ margin-right: 0px;
+}
+  
+.list-item {
+  // display: flex;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  @media screen and (min-width: 768px){
+  
+
+  }
+  @media screen and (min-width: 1200px){
+    display: flex;
+    }
+}
+
+.list-item h3 {
+  color: $text-color-black;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.14;
+  margin-top: 0;
+  margin-bottom: 10;
+  width: 100%;
+  height: 16px;
+  @media screen and (min-width: 768px) {
+    width: 270px;
+    text-align: left;
+  }
+}
+   
+.list-item p {
+  color: $text-color-grey;
+  width: 100%;
+  min-height: 75px;
+  font-size: 14px;
+  line-height: 1.71;
+  margin-top: 0;
+  margin-bottom: 0;
+  letter-spacing: 0.03em;
+  @media screen and (min-width: 768px) {
+    width: 354px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 270px;
+  }
+}
+
+.list-ett {
+  width: 100%;
+  height: 251px;
+  @media screen and (min-width: 768px) {
+    width: 354px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 354px;
+  }
+}
+    
+.list-ett::before {
+  display: block;
+  content: '';
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: #F5F4FA;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 4px;
+  @media screen and (min-width: 768px) {
+    width: 354px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 270px;
+  }
+}
+
+.icon-ant::before {
+  background-image: url(../images/anten.png);
+  background-size: 70px;
+  padding: 25px 100px;
+}
+  
+.icon-clock::before {
+  background-image: url(../images/clock.png);
+  background-size: 70px;
+  padding: 25px 100px;
+}
+  
+.icon-dia::before {
+  background-image: url(../images/diagr.png);
+  background-size: 70px;
+  padding: 25px 100px;
+}
+  
+.icon-astro::before {
+  background-image: url(../images/astro.png);
+  background-size: 70px;
+  padding: 25px 100px;
+}
+
+
+
+
+// .list {
+//   padding-top: 94px;
+//   padding-bottom: 94px;
+// }
+  
+// .list li {
+//   margin-right: 30px;
+// }
+
+// .list li:last-child {
+//  margin-right: 0px;
+// }
+  
+// .list-item {
+//   display: flex;
+//   margin-top: 0;
+//   margin-bottom: 0;
+//   padding-left: 0;
+// }
+
+// .list-item h3 {
+//   color: $text-color-black;
+//   font-size: 14px;
+//   line-height: 1.14;
+//   margin-top: 0;
+//   margin-bottom: 10;
+//   width: 270px;
+//   height: 16px;
+// }
+   
+// .list-item p {
+//   color: $text-color-grey;
+//   width: 270px;
+//   min-height: 75px;
+//   font-size: 14px;
+//   line-height: 1.71;
+//   margin-top: 0;
+//   margin-bottom: 0;
+//   letter-spacing: 0.03em;
+// }
+
+// .list-ett {
+//   width: 270px;
+//   height: 251px;
+// }
+    
+// .list-ett::before {
+//   display: block;
+//   content: '';
+//   height: 120px;
+//   margin-bottom: 30px;
+//   background-color: #F5F4FA;
+//   background-size: contain;
+//   background-repeat: no-repeat;
+//   background-position: center;
+//   border-radius: 4px;
+// }
+
+// .icon-ant::before {
+//   background-image: url(../images/anten.png);
+//   background-size: 70px;
+//   padding: 25px 100px;
+// }
+  
+// .icon-clock::before {
+//   background-image: url(../images/clock.png);
+//   background-size: 70px;
+//   padding: 25px 100px;
+// }
+  
+// .icon-dia::before {
+//   background-image: url(../images/diagr.png);
+//   background-size: 70px;
+//   padding: 25px 100px;
+// }
+  
+// .icon-astro::before {
+//   background-image: url(../images/astro.png);
+//   background-size: 70px;
+//   padding: 25px 100px;
+// }

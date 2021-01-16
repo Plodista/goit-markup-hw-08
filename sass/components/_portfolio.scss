@@ -1,0 +1,177 @@
+// PORTFOLIO
+
+.portfolio-filter button:hover,
+.portfolio-filter button:focus {
+ color: #FFFFFF;
+ background-color: $bt-second;
+ cursor: pointer;
+ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+ 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+ 
+ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+ transition-property: background-color;
+}
+
+.portfolio {
+  margin-top: 94px;
+  margin-bottom: 94px;
+}
+   
+
+.portfolio-filter {
+  display: flex;
+  justify-content: center;
+  font-style: normal;
+  letter-spacing: 0.03em;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0; 
+  margin-bottom: 50px;
+  
+}
+
+.portfolio-card a:hover .card-text,
+.portfolio-card a:focus .card-text{
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.tehno-cards:hover,
+.tehno-cards:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px
+   rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.card-content {
+  position: relative;
+  overflow: hidden;
+}
+
+.card-text {
+  position: absolute;
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.03em;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 100%;
+  height: 100%;
+  padding: 63px 24px;
+  top: 0;
+  left: 0;
+  color: $text-color-white;
+  transform: translateY(100%);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: rgba(33, 150, 243, 0.9);
+}
+
+.cards-item {
+  color: $text-color-grey;
+  width: 322px;
+  height: 36px; 
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em; 
+  height: 30px;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+
+.portfolio-card h3{
+  color: $text-color-black;  
+  font-size: 18px; 
+  line-height: 2;
+  letter-spacing: 0.06em;
+  font-weight: bold; 
+  width: 322px;
+  height: 36px;  
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+
+.portfolio-card li {
+  box-sizing: border-box;
+  width: 370px;
+  height: 404px;
+  margin: 15px;
+}
+  
+.portfolio-card li:nth-last-child(-n + 3) {
+  margin-bottom: 0;
+}
+
+.portfolio-card {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -15px; 
+  padding-left: 0;
+} 
+  
+.cards {
+  height: 110px;
+  padding: 20px 24px; 
+  border: 1px solid #EEEEEE;
+  border-top: inherit;
+}
+
+.portfolio-filter .item + .item {
+  margin-left: 8px;  
+}
+
+//   кнопки фильтрации с портфолио
+
+.vse {
+  width: 73px;
+  height: 38px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  border-radius: 4px;
+  border-color: transparent;
+}
+.veb {
+  width: 128px;
+  height: 38px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  border-radius: 4px;
+  border-color: transparent;
+}
+
+.pri {
+  width: 145px;
+  height: 38px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  border-radius: 4px;
+  border-color: transparent;
+}
+  
+.diz {
+  width: 103px;
+  height: 38px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  border-radius: 4px;
+  border-color: transparent;
+}
+
+.mark {
+  width: 130px;
+  height: 38px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  border-radius: 4px;
+  border-color: transparent;
+}

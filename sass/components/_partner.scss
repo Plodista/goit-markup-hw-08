@@ -1,0 +1,45 @@
+// PARTNER
+
+.partner {
+  display: flex;
+}
+  
+.partnet-all{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 94px;
+}
+
+.partner h2 {
+  font-size: 36px;
+  line-height: 1.17;
+  margin-left: 390px;
+  letter-spacing: 0.03em;
+  margin-top: 0;
+  margin-bottom: 50px;
+  padding-bottom: 0;
+  padding-top: 94px;
+}
+  
+.partner-one {
+  fill: #AFB1B8;
+}
+
+.partner-one {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 90px;
+  border: 1px solid #AFB1B8;
+  border-radius: 4%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+  
+.partner-one:hover {
+  border-color: #2196F3;
+  fill:  #2196F3;
+}

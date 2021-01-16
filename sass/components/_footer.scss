@@ -1,0 +1,197 @@
+// FOOTER
+
+#footer {
+  background-color: $color-footer;
+  display: flex;
+  padding-top: 60px;
+  padding-bottom: 60px;
+} 
+
+.footer-info {
+  display: inline-flex;
+  vertical-align: baseline;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  height: 132px;
+}
+  
+.soc-footer {
+  display: inline-flex;
+  vertical-align: baseline;
+  padding-left: 0;
+  padding-right: 0;
+  width: 208px;
+  justify-content: space-between;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.footer-two h4{
+  color: #FFFFFF;
+  margin-top: 0;
+  margin-bottom: 20px;
+  margin-right: auto;
+}
+  
+.icons-foot {
+  display: inline-flex;
+  width: 20px;
+  height: 20px;
+  fill: #FFFFFF;
+  align-items: center;
+  transition-property: background-color;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icons-foot:hover  {
+  fill: $text-color-white;
+}
+
+.twit-foot {
+  display: inline-flex; 
+  align-items: center; 
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  transition-property: background-color;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.twit-foot:hover {
+  background-color: #2196F3;
+  cursor: pointer;
+}
+
+.footer-two {
+  height: 80px;
+  margin-left: 70px;
+  padding-top: 0;
+}
+
+.foot-mail {
+  display: inline-block;
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+
+.footer-one {
+  width: 231px;
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.logo-foot {
+  font-family: Raleway;
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #2196F3;
+  font-size: 26px;
+  line-height: 1.19;
+  padding-right: auto;
+  padding-bottom: 20px;
+}
+
+.logo-foot span, .logo-span{
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+//   * !!!!!!!!!!!!!****ФОРМА в FOOTER ********!!!!!!!!!*
+
+.footer-mail {
+  display: flex;  
+  height: 50px;
+}
+  
+.footer-form {
+  display: block;
+  align-items: center;
+  
+  width: 570px;
+  margin-left: 93px;
+  margin-left: 93px;
+}
+
+.footer-form h4 {
+  display: inline-block;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: $text-color-white;
+}
+
+.btn-footer {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  margin-left: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: $text-color-white;
+  background-color: $bt-second;
+  border-radius: 4px;
+  border: transparent;
+}
+
+.btn-footer:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.send-icon{
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+}
+  
+  
+.footer-form input {
+  background-color: transparent;
+  padding: 15px;
+  margin-right: 12px;
+  width: 358px;
+  color: rgba(255, 255, 255, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+}
+
+.info-studio a,span{
+  display: inline-block;
+  color: #FFFFFF;
+  font-size: 14px;
+  line-height: 1,71;
+  letter-spacing: 0.03em;
+  font-style: normal;
+  font-weight: normal;
+}
+  
+.info-studio a {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  line-height: 1,71;
+  letter-spacing: 0.03em;
+  font-style: normal;
+  font-weight: normal;
+}
+  
+.info-studio span {
+  width: 231px;
+  height: 21px;
+}
+
+.logo-foot span, .logo-span{
+  font-size: 26px;
+  line-height: 1.19;
+}
