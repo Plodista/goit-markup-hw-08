@@ -1,19 +1,37 @@
-// FOOTER
+// FOOTER 320 480 768 1200
 
 #footer {
+  position: relative;
   background-color: $color-footer;
-  display: flex;
+  display: block;
   padding-top: 60px;
   padding-bottom: 60px;
+  height: 603px;
+  @media screen and (min-width: 768px){
+  height: 463px;
+  display: flex;
+  }
+  @media screen and (min-width: 1200px){
+    height: 252px;
+    display: flex;
+    }
 } 
 
 .footer-info {
-  display: inline-flex;
+  display: block;
   vertical-align: baseline;
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
   height: 132px;
+  @media screen and (min-width: 768px){
+    display: inline-flex;
+    vertical-align: baseline;
+    }
+    @media screen and (min-width: 1200px){
+    display: inline-flex;
+    vertical-align: baseline;
+      }
 }
   
 .soc-footer {
@@ -26,7 +44,18 @@
   margin-top: 0;
   margin-bottom: 0;
   padding-bottom: 0;
+  @media screen and (min-width: 768px){
+    display: inline-flex;
+    vertical-align: baseline;
+    justify-content: space-between;
+    }
+    @media screen and (min-width: 1200px){
+    display: inline-flex;
+    vertical-align: baseline;
+    justify-content: space-between;
+      }
 }
+
 
 .footer-two h4{
   color: #FFFFFF;
@@ -66,10 +95,40 @@
   cursor: pointer;
 }
 
+.footer-one {
+  width: 231px;
+  margin-left: 114px;
+  margin-right: 14px;
+  
+  @media screen and (max-width: 1199px){
+    text-align: center;
+  }
+  @media screen and (min-width: 768px){
+    margin-left: 76px;
+    margin-right: auto;
+    }
+    @media screen and (min-width: 1200px){
+      margin-left: 0;
+      margin-right: auto;
+      }
+}
+
 .footer-two {
   height: 80px;
+  margin-left: 0;
+  padding-top: 60px;
+  @media screen and (max-width: 1199px){
+    text-align: center;
+  }
+  @media screen and (min-width: 768px){
+    padding-top: 0;
+    margin-left: 160px;
+  }
+  @media screen and (min-width: 1200px){
   margin-left: 70px;
   padding-top: 0;
+  margin-bottom: 0;
+}
 }
 
 .foot-mail {
@@ -78,22 +137,26 @@
   padding-bottom: 9px;
 }
 
-.footer-one {
-  width: 231px;
-  margin-left: 0;
-  margin-right: auto;
-}
 
 .logo-foot {
   font-family: Raleway;
   display: inline-block;
+  text-align: center;
+  justify-content: center;
   margin-top: 0;
   margin-bottom: 0;
+  margin-left: 0;
   color: #2196F3;
   font-size: 26px;
   line-height: 1.19;
   padding-right: auto;
   padding-bottom: 20px;
+  @media screen and (min-width: 768px){
+    margin-left: 0px;
+    }
+    @media screen and (min-width: 1200px){
+      margin-left: 0px;
+      }
 }
 
 .logo-foot span, .logo-span{
@@ -104,25 +167,54 @@
 //   * !!!!!!!!!!!!!****ФОРМА в FOOTER ********!!!!!!!!!*
 
 .footer-mail {
-  display: flex;  
   height: 50px;
+  margin-left: 0;
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    margin-left: 0;
+  }
+  @media screen and (min-width: 768px){
+    margin-left: 0;
+  }
+  
 }
   
 .footer-form {
   display: block;
   align-items: center;
-  
   width: 570px;
-  margin-left: 93px;
-  margin-left: 93px;
+  margin-left: 0;
+  margin-top: 120px;
+ 
+  @media screen and (min-width: 768px){
+    margin-top: 0;
+    position: absolute;
+    top: 50%;
+    left: 22%;
+    margin-left: 0;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-left: 93px;
+    top: 23%;
+    left: 45%;
+    position: absolute;
+  }
 }
+
 
 .footer-form h4 {
   display: inline-block;
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 20px;
+  margin-left: 110px;
   color: $text-color-white;
+  @media screen and (min-width: 768px){
+    margin-left: 105px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-left: 0;
+  }
 }
 
 .btn-footer {
@@ -131,9 +223,10 @@
   justify-content: center;
   width: 200px;
   height: 50px;
-  margin-left: 12px;
+  margin-left: 125px;
   padding-top: 10px;
   padding-bottom: 10px;
+  margin-top: 20px;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
@@ -141,6 +234,15 @@
   background-color: $bt-second;
   border-radius: 4px;
   border: transparent;
+  @media screen and (min-width: 768px){
+    
+    margin-top: 20px;
+    margin-left: 125px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-top: 0;
+    margin-left: 12px;
+  }
 }
 
 .btn-footer:hover {
@@ -160,11 +262,14 @@
   background-color: transparent;
   padding: 15px;
   margin-right: 12px;
-  width: 358px;
+  width: 450px;
   color: rgba(255, 255, 255, 0.6);
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
+  @media screen and (min-width: 1200px){
+    width: 358px;
+  }
 }
 
 .info-studio a,span{

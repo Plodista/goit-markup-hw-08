@@ -1,29 +1,16 @@
 // HEADER
 
 #header {
-  position: relative;
- display: block;
+ display: flex;
  align-items: center;
  width: auto;
  border: 1px solid #ECECEC;
- @media screen and (min-width: 1200px){
-  display: flex;
-  }
-  @media screen and (min-width: 768px){
-    display: flex;
-    }
 }
 
 .header-all {
-  display: block;
+  display: flex;
   align-items: center;
   justify-content: space-between;
-  @media screen and (min-width: 1200px){
-    display: flex;
-    }
-    @media screen and (min-width: 768px){
-      display: flex;
-      }
 }
 
 .logo {
@@ -31,27 +18,17 @@
   display: inline-block;
   font-family: Raleway;
   min-width: 145px;
-  margin-right: 235px;
-  font-size: 24px;
+  margin-right: 93px;
+  font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  @media screen and (min-width: 768px){
-    font-size: 24px;
-    }
-  @media screen and (min-width: 1200px){
-    font-size: 26px;
-    margin-right: 93px;
-    }
 }
 
 .logo span{
   color: #000000;
-  font-size: 24px;
+  font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  @media screen and (min-width: 1200px){
-    font-size: 24px;
-    }
 }
 
 .site-nav a{
@@ -66,13 +43,6 @@
   padding-left: 0;
   padding-top: 32px;
   padding-bottom: 32px;
-  
-  @media screen and (max-width: 1199px){
-    display: none;
-    }
-    @media screen and (max-width: 767px){
-      display: none;
-      }
  }
   
 .auth-nav {
@@ -83,12 +53,6 @@
   margin-top: 0;
   padding-top: 32px;
   padding-bottom: 32px;
-  @media screen and (max-width: 1199px){
-    display: none;
-    }
-    @media screen and (max-width: 767px){
-      display: none;
-      }
 }
 
 .nav-mailo {
@@ -125,19 +89,12 @@
 
 .nav {
   display: inline-block;
-  
-  
+  display: flex;
   justify-content: space-between;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.143;
-  @media screen and (min-width: 1200px){
-    display: flex;
-    width: 931px;
-    }
-    @media screen and (min-width: 768px){
-      display: flex;
-      }
+  width: 931px;
 }
 
 .auth-nav li:last-child {
@@ -190,52 +147,4 @@
  color: #2196F3;
 }
 
-.menu-container {
-  display: none;
-  background-color: turquoise;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  width: 100%;
-  padding: 20px;
-  text-align: center;
-  font-size: 18px;
-  height: 400px;
-
-  &.is-open {
-    display: block;
-  }
-  // @media screen and (max-width: 1199px){
-  //   display: none;
-  //   }
- 
-}
-
-
-.menu-button {
-  // display: inline-flex;
-  margin: 0;
-  padding: 0;
-  border: none;
-  background-color: transparent;
-  width: 40px;
-  height: 40px;
-  justify-content: center;
-  align-items: center;
-  @media screen and (min-width: 1200px){
-    display: none;
-    }
-}
-
-.menu-button .icon-closen {
-  display: none;
-}
-
-.menu-button.is-open .icon-closen {
-  display: block;
-}
-
-.menu-button.is-open .icon-menun {
-  display: none;
-}
-
+   

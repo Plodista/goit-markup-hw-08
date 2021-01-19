@@ -3,17 +3,15 @@
 
 
 .list {
+ 
   padding-top: 60px;
   padding-bottom: 94px;
-}
   
-// @media screen and (min-width: 1200px) {
-//   width: 270px;
-//   text-align: left;
-// .list li {
-//   margin-right: 30px;
-// }
-// }
+@media screen and (min-width: 768px) {
+  margin: 0;
+  padding-bottom: 60px;
+}
+}
 
 .list li:last-child {
  margin-right: 0px;
@@ -24,12 +22,13 @@
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
-  @media screen and (min-width: 768px){
-  
-
+  @media screen and (max-width: 1199px){
+    display: flex;
+  flex-wrap: wrap;
   }
   @media screen and (min-width: 1200px){
     display: flex;
+
     }
 }
 
@@ -70,11 +69,16 @@
   height: 251px;
   @media screen and (min-width: 768px) {
     width: 354px;
+    margin-right: 15px;
   }
   @media screen and (min-width: 1200px) {
     width: 354px;
   }
 }
+
+// .list-ett li:nth-last-child(2) {
+//   margin-right: 0;
+// }
     
 .list-ett::before {
   display: block;
@@ -104,6 +108,9 @@
   background-image: url(../images/clock.png);
   background-size: 70px;
   padding: 25px 100px;
+  @media screen and (max-width: 1199px) {
+    margin-right: 0;
+  }
 }
   
 .icon-dia::before {
