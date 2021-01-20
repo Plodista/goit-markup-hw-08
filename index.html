@@ -14,29 +14,41 @@
         <div class="container">
           <div class="header-all">
              <p class="logo">Web<span>Studio</span></p>
-             <nav class="nav">
-                 <ul class="site-nav">
-                     <li><a href="./index.html" class="link current">Cтудия</a></li>
-                     <li><a href="./portfolio.html" class="link">Портфолио</a></li>
-                     <li><a href="#" class="link">Контакты</a></li>
-                 </ul>
-                  <ul class="auth-nav">
-                     <li class="iconhead">
+             <nav class="nav menu-container" id="menu-cotainer" data-menu>
+                    <ul class="site-nav">
+                        <li><a href="./index.html" class="link current">Cтудия</a></li>
+                        <li><a href="./portfolio.html" class="link">Портфолио</a></li>
+                        <li><a href="#" class="link">Контакты</a></li>
+                    </ul>
+                    <ul class="auth-nav">
+                        <li class="iconhead">
                             <a class="nav-mailo" href="mailo:info@devstudio.com">
-                              <svg class="icons-mail">
-                                 <use href="./images/symbol-defs.svg#icon-mail"></use>
-                               </svg> info@devstudio.com
+                                <svg class="icons-mail">
+                                    <use href="./images/symbol-defs.svg#icon-mail"></use>
+                                </svg> info@devstudio.com
                             </a>
                         </li>
-                     <li class="iconhead">
-                          <a class="nav-tel" href="tel:+38096111111">
-                              <svg class="icons-phon">
-                                 <use href="./images/symbol-defs.svg#icon-phone"></use>
-                              </svg>+38 096 111 11 11
+                        <li class="iconhead">
+                            <a class="nav-tel" href="tel:+38096111111">
+                                <svg class="icons-phon">
+                                    <use href="./images/symbol-defs.svg#icon-phone"></use>
+                                </svg>+38 096 111 11 11
                             </a>
-                     </li>
-                   </ul>
-              </nav>
+                        </li>
+                    </ul>
+             </nav>
+                <button 
+                type="button" 
+                class="menu-button is-open"
+                aria-controls="menu-container"
+                aria-expanded="false"
+                data-menu-button>
+                    <svg 
+                        width="24" height="24" aria-label="Мобильное меню">
+                        <use class="icon-menun" href="./images/symbol-defs.svg#icon-menu_nav"></use>
+                        <use class="icon-closen"href="./images/symbol-defs.svg#icon-close_nav"></use>
+                    </svg>
+                </button>
          </div>
      </div>
     </header>
@@ -149,6 +161,7 @@
                             <img class="designer"
                             srcset="./images/imgdes-mob.jpg 1x, ./images/imgdes-mob@2x 2x"
                             src="./images/imgdes-mob.jpg" alt="Игорь Демьяненко" width="450"> 
+
                             <div class="team-name">
                                 <h4>Игорь Демьяненко</h4>
                                 <p>Product Designer</p>
