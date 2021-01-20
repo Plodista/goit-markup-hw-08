@@ -44,6 +44,9 @@
   margin-top: 0;
   margin-bottom: 0;
   padding-bottom: 0;
+  @media screen and (max-width: 479px) {
+    width: 208px;
+  }
   @media screen and (min-width: 768px){
     display: inline-flex;
     vertical-align: baseline;
@@ -97,20 +100,26 @@
 
 .footer-one {
   width: 231px;
-  margin-left: 114px;
-  margin-right: 14px;
-  
-  @media screen and (max-width: 1199px){
-    text-align: center;
+  margin-left: 0;
+ 
+  @media screen and (max-width: 479px) {
+    width: 100%;
   }
-  @media screen and (min-width: 768px){
+  @media screen and (min-width: 480px){
     margin-left: 76px;
-    margin-right: auto;
+    margin-left: 112px;
+    }
+    @media screen and (min-width: 768px){
+      margin-left: 76px;
+      margin-right: auto;
     }
     @media screen and (min-width: 1200px){
       margin-left: 0;
       margin-right: auto;
-      }
+    }
+    @media screen and (max-width: 1199px){
+      text-align: center;
+    }
 }
 
 .footer-two {
@@ -182,10 +191,19 @@
 .footer-form {
   display: block;
   align-items: center;
-  width: 570px;
+  width: 290px;
   margin-left: 0;
   margin-top: 120px;
- 
+  @media screen and (max-width: 479px){
+    width: 290px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  @media screen and (min-width: 480px){
+    width: 450px;
+  }
+
   @media screen and (min-width: 768px){
     margin-top: 0;
     position: absolute;
@@ -209,6 +227,9 @@
   margin-bottom: 20px;
   margin-left: 110px;
   color: $text-color-white;
+  @media screen and (max-width: 479px){
+    margin-left: 20px;
+  }
   @media screen and (min-width: 768px){
     margin-left: 105px;
   }
@@ -243,6 +264,12 @@
     margin-top: 0;
     margin-left: 12px;
   }
+  @media screen and (max-width: 479px){
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+  }
+
 }
 
 .btn-footer:hover {
@@ -262,11 +289,17 @@
   background-color: transparent;
   padding: 15px;
   margin-right: 12px;
-  width: 450px;
+  width: 290px;
   color: rgba(255, 255, 255, 0.6);
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
+  @media screen and (min-width: 479px){
+    width: 450px;
+  }
+  @media screen and (min-width: 768px){
+    width: 450px;
+  }
   @media screen and (min-width: 1200px){
     width: 358px;
   }

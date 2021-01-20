@@ -20,8 +20,8 @@
     display: inline-flex;
     width: 1170px;
     padding-bottom: 94px;
-    
   }
+  
 }
 
 .partner h2 {
@@ -67,9 +67,15 @@
     justify-content: center;
     margin-bottom: 0;
   }
+  @media screen and (max-width: 479px){
+    width: 290px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
   
 .partner-one:hover {
   border-color: #2196F3;
   fill:  #2196F3;
 }
+

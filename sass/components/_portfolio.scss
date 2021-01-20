@@ -20,7 +20,6 @@
 
 .portfolio-filter {
   display: flex;
-  justify-content: center;
   font-style: normal;
   letter-spacing: 0.03em;
   font-weight: 500;
@@ -31,6 +30,12 @@
   padding-left: 0; 
   margin-bottom: 50px;
 
+  @media screen and (max-width: 767px){
+    flex-wrap: wrap;
+    }
+    @media screen and (min-width: 768px){
+    justify-content: center;
+}
 }
 
 .portfolio-card a:hover .card-text,
@@ -94,6 +99,9 @@
   margin-right: 0;
   margin-bottom: 0;
   margin-left: 0;
+  @media screen and (max-width: 479px){
+    font-size: 15px;;
+    }
 }
 
 // .portfolio-card li {
@@ -105,10 +113,14 @@
 // }
 
 .tehno-cards {
-  box-sizing: border-box;
+  // box-sizing: border-box;
   width: 450px;
   height: 404px;
   margin: 15px;
+  @media screen and (max-width: 479px){
+  width: 100%;
+  height: 100%;
+  }
   @media screen and (min-width: 768px){
     width: 354px;
     height: 404px;
@@ -128,6 +140,9 @@
   flex-wrap: wrap;
   margin: -15px; 
   padding-left: 0;
+  @media screen and (max-width: 479px){
+    margin: 0;
+    }
 } 
   
 .cards {
@@ -135,10 +150,16 @@
   padding: 20px 24px; 
   border: 1px solid #EEEEEE;
   border-top: inherit;
+  @media screen and (max-width: 479px){
+    padding: 20px 1px;
+    }
 }
 
 .portfolio-filter .item + .item {
   margin-left: 8px;  
+  @media screen and (max-width: 479px){
+    margin-left: 0;
+    }
 }
 
 //   кнопки фильтрации с портфолио
@@ -151,6 +172,15 @@
   line-height: 1.63;
   border-radius: 4px;
   border-color: transparent;
+  @media screen and (max-width: 767px){
+    margin-bottom: 15px;
+    }
+    @media screen and (max-width: 370px){
+      margin-right: 8px;
+      }
+      @media screen and (max-width: 479px){
+        margin-right: 8px;
+        }
 }
 .veb {
   width: 128px;
@@ -160,6 +190,12 @@
   line-height: 1.63;
   border-radius: 4px;
   border-color: transparent;
+  @media screen and (max-width: 767px){
+    margin-bottom: 15px;
+    }
+    @media screen and (max-width: 479px){
+      margin-right: 8px;
+      }
 }
 
 .pri {
@@ -170,6 +206,12 @@
   line-height: 1.63;
   border-radius: 4px;
   border-color: transparent;
+  @media screen and (max-width: 767px){
+    margin-bottom: 15px;
+    }
+    @media screen and (max-width: 479px){
+      margin-right: 8px;
+      }
 }
   
 .diz {
@@ -180,6 +222,12 @@
   line-height: 1.63;
   border-radius: 4px;
   border-color: transparent;
+  @media screen and (max-width: 380px){
+    margin-bottom: 15px;
+    }
+    @media screen and (max-width: 479px){
+      margin-right: 8px;
+      }
 }
 
 .mark {
