@@ -5,6 +5,7 @@
  align-items: center;
  width: auto;
  border: 1px solid #ECECEC;
+ 
 }
 
 .header-all {
@@ -78,9 +79,14 @@
   }
   @media screen and (max-width: 1199px){
     display: block;
-    width: 155px;
+    width: 250px;
     padding-top: 20px;
     padding-bottom: 0;
+    padding-left: 70px;
+  }
+  @media screen and (max-width: 767px){
+    padding-top: 0;
+    padding-left: 0;
   }
 }
 
@@ -110,7 +116,7 @@
   display: flex;
   align-items: center;
   @media screen and (max-width: 1199px){
-    width: 150px;
+    width: 100%;
   }
 }
 
@@ -219,9 +225,7 @@
   @media screen and (max-width: 767px){
     display: block;
     height: 390px;
-    
   }
-
 } 
 
 @media screen and (max-width: 767px) {
@@ -256,8 +260,6 @@
 .menu-button.is-open .icon-menun {
   display: none;
 }
-
-
 
 
 .menu-container {

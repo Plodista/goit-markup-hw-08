@@ -363,9 +363,17 @@ img {
 @media screen and (max-width: 1199px) {
   .auth-nav {
     display: block;
-    width: 155px;
+    width: 250px;
     padding-top: 20px;
     padding-bottom: 0;
+    padding-left: 70px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .auth-nav {
+    padding-top: 0;
+    padding-left: 0;
   }
 }
 
@@ -396,7 +404,7 @@ img {
 
 @media screen and (max-width: 1199px) {
   .nav-tel {
-    width: 150px;
+    width: 100%;
   }
 }
 
