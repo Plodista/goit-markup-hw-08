@@ -1618,6 +1618,12 @@ h1 {
   }
 }
 
+@media screen and (max-width: 380px) {
+  .modal {
+    width: 350px;
+  }
+}
+
 .modal-close-btn {
   position: absolute;
   display: flex;
@@ -1675,6 +1681,12 @@ h1 {
   }
 }
 
+@media screen and (max-width: 380px) {
+  .form {
+    width: 350px;
+  }
+}
+
 .modal-title {
   text-align: center;
   margin-bottom: 15px;
@@ -1703,6 +1715,12 @@ h1 {
 @media screen and (min-width: 1200px) {
   .form-group {
     width: 448px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .form-group {
+    width: 270px;
   }
 }
 
@@ -1774,6 +1792,18 @@ h1 {
   }
 }
 
+@media screen and (max-width: 380px) {
+  .policy {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .policy {
+    width: 200px;
+  }
+}
+
 .policy-checkbox {
   position: absolute;
   width: 1px;
@@ -1833,6 +1863,12 @@ h1 {
   .btn-modal-form {
     margin-left: 124px;
     margin-right: 124px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .btn-modal-form {
+    margin-left: 30px;
   }
 }
 
