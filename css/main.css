@@ -1618,7 +1618,7 @@ h1 {
   }
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 400px) {
   .modal {
     width: 350px;
   }
@@ -1681,7 +1681,7 @@ h1 {
   }
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 400px) {
   .form {
     width: 350px;
   }
@@ -1689,19 +1689,39 @@ h1 {
 
 .modal-title {
   text-align: center;
-  margin-bottom: 15px;
-  margin-top: 45px;
+  margin-top: 0;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 1.15px;
   letter-spacing: 0.03em;
   margin-left: 0;
+  width: 370px;
+  height: 50px;
+  padding-top: 40px;
+  margin-bottom: 0;
+  margin-right: 0;
+  margin-left: 35px;
+  font-style: bold;
 }
 
 @media screen and (min-width: 1200px) {
   .modal-title {
     margin-bottom: 5px;
     margin-left: 0;
+    width: 450px;
+    padding-bottom: 10px;
+    margin-left: 35px;
+    height: 60px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .modal-title {
+    width: 300px;
+    margin-left: 18px;
+    font-size: 14px;
+    height: 50px;
   }
 }
 
@@ -1718,7 +1738,7 @@ h1 {
   }
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 400px) {
   .form-group {
     width: 270px;
   }
@@ -1792,13 +1812,7 @@ h1 {
   }
 }
 
-@media screen and (max-width: 380px) {
-  .policy {
-    width: 300px;
-  }
-}
-
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 400px) {
   .policy {
     width: 200px;
   }
@@ -1866,7 +1880,7 @@ h1 {
   }
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 400px) {
   .btn-modal-form {
     margin-left: 30px;
   }
