@@ -1274,6 +1274,13 @@ h1 {
   fill: #2196F3;
 }
 
+@media screen and (max-width: 479px) {
+  .partner-item {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 .portfolio-filter button:hover,
 .portfolio-filter button:focus {
   color: #FFFFFF;
