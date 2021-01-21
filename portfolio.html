@@ -10,11 +10,11 @@
     <title>Портфолио</title>
 </head>
 <body>
-    <!-- <header id="header">
+    <header id="header">
         <div class="container">
             <div class="header-all">
               <p class="logo">Web<span>Studio</span></p>
-              <nav class="nav">
+              <nav class="nav menu-container" id="menu-cotainer" data-menu>
                  <ul class="site-nav">
                      <li><a href="./index.html" class="link">Cтудия</a></li>
                      <li><a  href="./portfolio.html" class="link current">Портфолио</a></li>
@@ -37,9 +37,21 @@
                  </li>
                   </ul>
               </nav>
+              <button 
+              type="button" 
+              class="menu-button is-open"
+              aria-controls="menu-container"
+              aria-expanded="false"
+              data-menu-button>
+                  <svg 
+                      width="24" height="24" aria-label="Мобильное меню">
+                      <use class="icon-menun" href="./images/symbol-defs.svg#icon-menu_nav"></use>
+                      <use class="icon-closen"href="./images/symbol-defs.svg#icon-close_nav"></use>
+                  </svg>
+              </button>
            </div>
         </div>
-    </header> -->
+    </header>
     <main>
         <div class="container">
             <section class="portfolio">
@@ -283,5 +295,6 @@
           </ul>
         </div>
     </footer>
+    <script src="./js/menu.js"></script>
 </body>
 </html>
