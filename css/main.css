@@ -1592,7 +1592,7 @@ h1 {
 
 .modal {
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 50%;
   width: 450px;
   height: 610px;
@@ -1604,7 +1604,7 @@ h1 {
 
 @media screen and (min-width: 768px) {
   .modal {
-    top: 40%;
+    top: 50%;
     left: 50%;
   }
 }
@@ -1613,7 +1613,7 @@ h1 {
   .modal {
     width: 528px;
     height: 581px;
-    top: 40%;
+    top: 50%;
     left: 50%;
   }
 }
