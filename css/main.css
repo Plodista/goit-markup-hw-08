@@ -1924,8 +1924,10 @@ h1 {
 
 @media screen and (min-width: 768px) {
   .footer-info {
-    display: inline-flex;
+    display: flex;
+    flex-wrap: wrap;
     vertical-align: baseline;
+    justify-content: space-around;
   }
 }
 
@@ -1934,6 +1936,69 @@ h1 {
     display: inline-flex;
     vertical-align: baseline;
   }
+}
+
+.footer-one {
+  width: 231px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 479px) {
+  .footer-one {
+    width: 231px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer-one {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer-one {
+    margin-left: 0;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .footer-one {
+    text-align: center;
+  }
+}
+
+.footer-two {
+  height: 80px;
+  margin-left: 0;
+  padding-top: 60px;
+}
+
+@media screen and (max-width: 1199px) {
+  .footer-two {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer-two {
+    padding-top: 0;
+    margin-left: 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer-two {
+    margin-left: 70px;
+    padding-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+.footer-info-li {
+  width: 50%;
 }
 
 .soc-footer {
@@ -2006,71 +2071,6 @@ h1 {
 .twit-foot:hover {
   background-color: #2196F3;
   cursor: pointer;
-}
-
-.footer-one {
-  width: 231px;
-  margin-left: 0;
-}
-
-@media screen and (max-width: 479px) {
-  .footer-one {
-    width: 100%;
-  }
-}
-
-@media screen and (min-width: 480px) {
-  .footer-one {
-    margin-left: 76px;
-    margin-left: 112px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .footer-one {
-    margin-left: 76px;
-    margin-right: auto;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .footer-one {
-    margin-left: 0;
-    margin-right: auto;
-  }
-}
-
-@media screen and (max-width: 1199px) {
-  .footer-one {
-    text-align: center;
-  }
-}
-
-.footer-two {
-  height: 80px;
-  margin-left: 0;
-  padding-top: 60px;
-}
-
-@media screen and (max-width: 1199px) {
-  .footer-two {
-    text-align: center;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .footer-two {
-    padding-top: 0;
-    margin-left: 160px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .footer-two {
-    margin-left: 70px;
-    padding-top: 0;
-    margin-bottom: 0;
-  }
 }
 
 .foot-mail {
@@ -2154,20 +2154,15 @@ h1 {
 
 @media screen and (min-width: 768px) {
   .footer-form {
-    margin-top: 0;
-    position: absolute;
-    top: 50%;
-    left: 22%;
-    margin-left: 0;
+    margin-top: 60px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .footer-form {
     margin-left: 93px;
-    top: 23%;
-    left: 45%;
-    position: absolute;
+    margin-top: 0;
+    width: 560px;
   }
 }
 
@@ -2228,6 +2223,7 @@ h1 {
   .btn-footer {
     margin-top: 0;
     margin-left: 12px;
+    width: 200px;
   }
 }
 
@@ -2276,7 +2272,7 @@ h1 {
 
 @media screen and (min-width: 1200px) {
   .footer-form input {
-    width: 358px;
+    width: 570px;
   }
 }
 
